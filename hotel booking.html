@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Tourism</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: sand color;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 10;
+            padding: ;
+            text-align:;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .content, .heritage-list, .gallery {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .heritage-list ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .heritage-list li {
+            margin: 10px;
+            list-style-type: none;
+        }
+
+        .heritage-list a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .heritage-list img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .booking-form {
+            width: 50%;
+            margin: 20px auto;
+        }
+
+        .booking-form input, .booking-form select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+
+        .booking-form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .booking-form button:hover {
+            background-color: #555;
+        }
+
+        .gallery-images {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+
+        .gallery-images img {
+            width: 100%;
+            height: auto;
+        }
+
+    </style>
+</head>
+<body>
+
+
+
+
+
+
+
+<!-- Hotel Booking Page -->
+<div id="hotel-booking">
+    <header>
+        <h1>Hotel Booking</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="WP ass.html">Home</a></li>
+            <li><a href="heritage.html">Heritage</a></li>
+            <li><a href="#hotel-booking">Hotel Booking</a></li>
+            <li><a href="galery.html">Gallery</a></li>
+        </ul>
+    </nav>
+<hr>
+    <section class="booking-form">
+        <h2>Book Your Stay</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="checkin">Check-in Date:</label>
+            <input type="date" id="checkin" name="checkin" required>
+
+            <label for="checkout">Check-out Date:</label>
+            <input type="date" id="checkout" name="checkout" required>
+
+            <label for="room-type">Room Type:</label>
+            <select id="room-type" name="room-type" required>
+                <option value="single">Single</option>
+                <option value="double">Double</option>
+                <option value="suite">Suite</option>
+            </select>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 City Tourism. All rights reserved.</p>
+    </footer>
+</div>
+

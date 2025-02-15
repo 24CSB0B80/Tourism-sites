@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Tourism</title>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to the City Tourism Website</h1>
+    <img src="logo.png" alt="City Logo" class="logo">
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#heritage">Heritage Sites</a></li>
+        <li><a href="#hotel-booking">Hotel Booking</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+    </ul>
+</nav>
+
+<!-- Home Section -->
+<section id="home">
+    <h2>Discover the Beauty of Our City</h2>
+    <p>Explore the rich heritage, breathtaking landscapes, and vibrant culture of our beautiful city. Whether you're looking to book a stay or discover historic sites, we have it all!</p>
+</section>
+
+<!-- Heritage Sites Section -->
+<section id="heritage">
+    <h2>Explore Our Heritage Sites</h2>
+    <ul>
+        <li><a href="#heritage-site1">Heritage Site 1</a></li>
+        <li><a href="#heritage-site2">Heritage Site 2</a></li>
+        <li><a href="#heritage-site3">Heritage Site 3</a></li>
+        <li><a href="#heritage-site4">Heritage Site 4</a></li>
+        <li><a href="#heritage-site5">Heritage Site 5</a></li>
+    </ul>
+</section>
+
+<!-- Heritage Site 1 -->
+<section id="heritage-site1">
+    <h3>Heritage Site 1</h3>
+    <img src="heritage_site1.jpg" alt="Heritage Site 1">
+    <p>This site is known for its historical significance dating back to the 16th century. It is a remarkable site with historical artifacts.</p>
+    <p><a href="#heritage">Back to Heritage Sites</a></p>
+</section>
+
+<!-- Heritage Site 2 -->
+<section id="heritage-site2">
+    <h3>Heritage Site 2</h3>
+    <img src="heritage_site2.jpg" alt="Heritage Site 2">
+    <p>This site showcases the architectural brilliance of the ancient city. It has been a center for culture and arts for centuries.</p>
+    <p><a href="#heritage">Back to Heritage Sites</a></p>
+</section>
+
+<!-- Heritage Site 3 -->
+<section id="heritage-site3">
+    <h3>Heritage Site 3</h3>
+    <img src="heritage_site3.jpg" alt="Heritage Site 3">
+    <p>With roots that trace back to the 12th century, this site has been home to many historic events and is an iconic landmark.</p>
+    <p><a href="#heritage">Back to Heritage Sites</a></p>
+</section>
+
+<!-- Heritage Site 4 -->
+<section id="heritage-site4">
+    <h3>Heritage Site 4</h3>
+    <img src="heritage_site4.jpg" alt="Heritage Site 4">
+    <p>This site is a blend of ancient and modern culture, offering visitors a glimpse into the city's evolution.</p>
+    <p><a href="#heritage">Back to Heritage Sites</a></p>
+</section>
+
+<!-- Heritage Site 5 -->
+<section id="heritage-site5">
+    <h3>Heritage Site 5</h3>
+    <img src="heritage_site5.jpg" alt="Heritage Site 5">
+    <p>A site of immense cultural importance, it represents the city's ancient traditions and serves as a symbol of heritage preservation.</p>
+    <p><a href="#heritage">Back to Heritage Sites</a></p>
+</section>
+
+<!-- Hotel Booking Section -->
+<section id="hotel-booking">
+    <h2>Book Your Stay</h2>
+    <form action="submit_booking.php" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="checkin">Check-in Date:</label>
+        <input type="date" id="checkin" name="checkin" required>
+
+        <label for="checkout">Check-out Date:</label>
+        <input type="date" id="checkout" name="checkout" required>
+
+        <label for="room-type">Room Type:</label>
+        <select id="room-type" name="room-type" required>
+            <option value="single">Single</option>
+            <option value="double">Double</option>
+            <option value="suite">Suite</option>
+        </select>
+
+        <button type="submit">Book Now</button>
+    </form>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery">
+    <h2>Heritage Sites Gallery</h2>
+    <div class="gallery">
+        <img src="gallery1.jpg" alt="Gallery Image 1">
+        <img src="gallery2.jpg" alt="Gallery Image 2">
+        <img src="gallery3.jpg" alt="Gallery Image 3">
+        <img src="gallery4.jpg" alt="Gallery Image 4">
+        <img src="gallery5.jpg" alt="Gallery Image 5">
+    </div>
+</section>
+
+</body>
+</html>
